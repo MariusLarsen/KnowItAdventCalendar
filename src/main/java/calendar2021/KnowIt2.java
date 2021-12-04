@@ -1,3 +1,5 @@
+package calendar2021;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -9,7 +11,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class KnowIt2 {
-    private static final String FILE_PATH = "data/cities.csv";
+    private static final String FILE_PATH = "data/day2.txt";
     private static final String FLOAT_PATTERN = "(-?[0-9]*[.][0-9]+)";
     private static final double EARTH_RADIUS = 6371.0;
     private static final Pattern pattern = Pattern.compile(FLOAT_PATTERN + " " + FLOAT_PATTERN);
